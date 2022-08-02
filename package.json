@@ -1,0 +1,20 @@
+{
+  "name": "21.07",
+  "version": "1.0.0",
+  "description": "my project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "server":"nodemon ./app.js"
+  },
+  "author": "Uliana",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
